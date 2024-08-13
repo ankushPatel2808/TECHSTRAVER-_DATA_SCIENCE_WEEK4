@@ -1,40 +1,102 @@
-# Analysis-Zomato-data-with-python and Visualization with Power-Bi
-![image](https://github.com/ritikaga/Data-Analysis-of-Zomato-Restaurant/assets/66274316/c358d249-02e2-4bc2-932b-387fdf56d469)
+# TECHSTRAVER-_DATA_SCIENCE_WEEK4
 
-## Project Objective
-In this project, we investigate a dataset that carries approximate facts about restaurant chains all over the world. The project's main aim is to perform descriptive and statistical analysis based on a few goals designed.
+Project 1: Zomato sales analysis and visualization 
+Resources: 
+Kaggle: Utilize this platform to find various datasets. 
+Technologies: 
+o Python: Primary language for data analysis and visualization. 
+o Pandas: For data manipulation tasks like cleaning, merging, and aggregating 
+data. 
+o NumPy: For numerical operations and efficient computation. 
+o Matplotlib/Seaborn: For creating a variety of visualizations to help 
+understand the data better. 
+Steps: 
+1. Import Libraries and Load Data 
+o Start by importing the necessary Python libraries such as Pandas, NumPy, 
+Matplotlib, and Seaborn. 
+o Load your dataset into a Pandas DataFrame to begin the analysis. 
+2. Clean and Preprocess Data 
+o Handle any missing values in your dataset to avoid errors during analysis. 
+o Remove any duplicate entries to ensure the data's integrity. 
+o Convert data types if necessary (e.g., converting dates from strings to 
+datetime objects). 
+o Extract useful information such as month from date columns or city from 
+address columns. 
+3. Conduct Exploratory Data Analysis (EDA) 
+o Use descriptive statistics to get an overview of your data. 
+o Create visualizations to understand the distributions, patterns, and 
+relationships within the data. 
+o Identify any correlations or trends that might be significant for your analysis. 
+4. Draw Conclusions and Insights 
+o Answer the key business questions with insights derived from your EDA. 
+o Provide actionable recommendations based on your findings. 
+The analysis that we are going to perform shall answer the following questions: 
+• Total restaurants and total cuisines all over the world? 
+• Which countries have the greatest number of restaurants enrolled in Zomato? 
+• Which cities in India have the greatest number of "value for money restaurants? 
+• What are the top 10 cuisines that have the highest number of votes in India.? 
+• Which countries have restaurants that deliver online? 
+• In terms of the number of restaurants, which locality has the most? 
+• Which Restaurants have Good Cuisine and an average rating
 
-## Dataset
-The dataset provides information like an average cost for two, location, votes, the aggregate rating, cuisines, country, rating text, etc. Various analysis like the top cuisines, most expensive restaurants, average rating for each country, and many other analysis are performed on the dataset.
-The dataset's owner is Zomato and Kaggle is the source providing the data.
+output:-
+![image](https://github.com/user-attachments/assets/0d9994c0-fb25-4312-9f91-91df9735d919)
+![image](https://github.com/user-attachments/assets/b67b386c-9525-418e-b704-e290979341c2)
+![image](https://github.com/user-attachments/assets/e9644263-1ca5-42d2-b588-3a881bf22c8b)
+![image](https://github.com/user-attachments/assets/e2c75e69-439b-445d-9967-5300a1b47d6b)
 
 
-## Zamoto Analysis
-* Load the Raw Data.
-* Data cleaning is performed on Python libraries Numpy, and pandas.
-* Made sure data is Dropping unnecessary columns, Dropping duplicate rows, and Cleaning individual rows.
-* Cleaned the data, and it is ready for developing the Interactive Dashboard.
+Project 2: Flipkart Review Sentiment Analysis 
+Technologies: 
+The libraries used are :  
+• Pandas : For importing the dataset. 
+• Scikit-learn : For importing the model, accuracy module, and TfidfVectorizer. 
+• Warning : To ignore all the warnings 
+• Matplotlib : To plot the visualization. Also used Wordcloud for that. 
+• Seaborn : For data visualization. 
+Steps: 
+Import Libraries 
+• Import required libraries (Pandas, Seaborn, Matplotlib, NLTK, WordCloud). 
+Load Dataset 
+• Load the Flipkart reviews dataset. 
+Check for Null Values 
+• Identify and handle null values. 
+Data Cleaning 
+• Clean reviews using regular expressions, stemming, and removal of stopwords. 
+Plot Ratings 
+• Visualize product ratings distribution using a pie chart. 
+Generate WordCloud 
+• Create a WordCloud to visualize frequently used words in reviews. 
+Sentiment Analysis 
+• Add columns for sentiment scores (positive, negative, neutral) using 
+SentimentIntensityAnalyzer. 
+• Calculate and print overall sentiment scores. 
+Methodology : 
+Data Preparation: 
+• Load dataset and handle null values. 
+Data Cleaning: 
+• Clean text data: lowercase conversion, remove unwanted characters, stemming, and 
+stopwords removal. 
+Data Visualization: 
+• Plot rating distribution. 
+• Generate WordCloud for frequent words. 
+Sentiment Analysis: 
+• Calculate sentiment scores for each review. 
+• Add sentiment columns to dataset. 
+• Compute and determine overall sentiment. 
+Conclusion: 
+• Interpret results to gauge customer satisfaction and product/service improvements. 
 
-## Questions
-The analysis that we are going to perform shall answer the following questions:
 
-* Total restaurants and total cuisines all over the world?
-* Which countries have the greatest number of restaurants enrolled in Zomato?
-* Which cities in India have the greatest number of "value for money restaurants?
-* What are the top 10 cuisines that have the highest number of votes in India.?
-* Which countries have restaurants that deliver online?
-* In terms of the number of restaurants, which locality has the most?
-* Which Restaurants have Good Cuisine and an average rating?
-
-## Dashboard
-<img width="1800" alt="Dashboard snapshort" src="https://github.com/ritikaga/Zomato-Analysis-with-Python-and-visualization-with-Power-BI/assets/66274316/697a2508-fb25-4f8d-829b-803371175bf7">
+output:-
+![image](https://github.com/user-attachments/assets/4708f408-7b43-4e44-85b2-8e2ccf0dc264)
+![image](https://github.com/user-attachments/assets/3421781a-1e88-4528-8820-3ab3b5f6770b)
+![image](https://github.com/user-attachments/assets/314b18fe-beeb-4240-a988-6c9d92ec2512)
+![image](https://github.com/user-attachments/assets/669bf7f5-c437-4b5c-8cb6-96126b0d1382)
 
 
-## Conclusion
-* The dataset shows the restaurants with the highest cost for two, countries with a greater number of restaurants on Zomato, countries with 
-  restaurants that offer online delivery, average aggregate rating for countries, etc.
-* Based on our analysis performed, the restaurants present in different localities can improve the quality of the restaurant, deliver online,work on days that have an average aggregate rating, 
-  and check for value-added restaurants to check on how they work and can implement a few techniques like including both online delivery and table booking, providing various cuisines to 
-  visitors, etc.
-* It is easy for frequent visitor's filter based on the average cost for two, votes, the aggregate rating, cuisines, etc. This can be done before 
-  visiting the restaurant
+
+
+
+
+
